@@ -1,9 +1,57 @@
 <html>
     <head>
-        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="index.css" />
     </head>
     <body>
-        <h1>index.html</h1>
-        <script src="index.js"></script>
+        <main>
+            <div class="container">
+                <form>
+                    <input type="color" name="hex-value" />
+                    <select name="mode">
+                        <option value="monochrome">Monochrome</option>
+                        <option value="monochrome-dark">Monochrome-dark</option>
+                        <option value="monochrome-light">
+                            Monochrome-light
+                        </option>
+                        <option value="analogic">Analogic</option>
+                        <option value="analogic-complement">
+                            Analogic-complement
+                        </option>
+                        <option value="triad">Ariad</option>
+                        <option value="quad">Quad</option>
+                    </select>
+                    <button type="submit">Get color scheme</button>
+                </form>
+                <div class="scheme-container">
+                    <div class="color-container">
+                        <div class="color"></div>
+                        <p class="hex-value">#23452</p>
+                    </div>
+                    <div class="color-container">
+                        <div class="color"></div>
+                        <p class="hex-value">#23452</p>
+                    </div>
+                    <div class="color-container">
+                        <div class="color"></div>
+                        <p class="hex-value">#23452</p>
+                    </div>
+                    <div class="color-container">
+                        <div class="color"></div>
+                        <p class="hex-value">#23452</p>
+                    </div>
+                    <div class="color-container">
+                        <div class="color"></div>
+                        <p class="hex-value">#23452</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="index.js" type="module"></script>
     </body>
 </html>
