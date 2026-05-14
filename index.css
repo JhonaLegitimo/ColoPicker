@@ -46,15 +46,6 @@ select {
     padding: 0.65em;
 }
 
-select,
-select::picker(select) {
-    appearance: base-select;
-}
-
-select option:hover {
-    font-weight: bold;
-}
-
 button {
     font-size: 0.8rem;
     padding: 1em;
@@ -74,9 +65,9 @@ button {
 
 .color-container {
     text-align: center;
+    background-color: beige;
 }
 
 .color {
-    background-color: black;
     height: 300px;
 }
